@@ -1,0 +1,10 @@
+AllCops:
+  TargetRubyVersion: 2.3
+  Exclude:
+    - 'tmp/**/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/SignalException:
+  EnforcedStyle: semantic
