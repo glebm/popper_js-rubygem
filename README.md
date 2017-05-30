@@ -1,7 +1,8 @@
 # PopperJs
 
-This gem packages [popper.js](https://popper.js.org/) for use with Sprockets,
-the Rails asset pipeline.
+This gem provides [popper.js](https://popper.js.org/) assets as a Ruby gem.
+
+Out of the box, it works with Sprockets, the Rails asset pipeline.
 
 ## Installation
 
