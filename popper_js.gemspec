@@ -12,6 +12,7 @@ Gem::Specification.new do |spec|
   spec.email         = ['glex.spb@gmail.com']
 
   spec.summary       = 'Popper.js assets as a Ruby gem. https://popper.js.org/'
+  spec.description   = 'Works with Rails out of the box.'
   spec.homepage      = 'https://github.com/glebm/popper_js-rubygem'
   spec.license       = 'MIT'
 
