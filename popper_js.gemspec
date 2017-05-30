@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Gleb Mazovetskiy']
   spec.email         = ['glex.spb@gmail.com']
 
-  spec.summary       = 'https://popper.js.org/ packaged for Sprockets.'
+  spec.summary       = 'Popper.js assets as a Ruby gem. https://popper.js.org/'
   spec.homepage      = 'https://github.com/glebm/popper_js-rubygem'
   spec.license       = 'MIT'
 

@@ -7,7 +7,7 @@ RSpec.describe PopperJs do
     expect(PopperJs::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'has the assets' do
+    expect(File).to exist('assets/javascripts/popper.js')
   end
 end
