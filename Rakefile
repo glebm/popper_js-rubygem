@@ -32,7 +32,7 @@ task :update do # rubocop:disable Metrics/BlockLength
   File.write version_path,
              File.read(version_path)
                  .sub(/VERSION = '.*?'/,
-                      "VERSION = '#{uri.path.split('@')[-1]}'")
+                      "VERSION = '#{uri.path.split('@')[-1].split('/')[0]}'")
 
   STDERR.puts "Updated from #{uri}"
 end
