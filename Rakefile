@@ -7,7 +7,7 @@ desc 'Update popper.js assets to the latest npm release'
 task :update do # rubocop:disable Metrics/BlockLength
   require 'net/http'
   require 'uri'
-  uri = URI.parse('https://unpkg.com/popper.js')
+  uri = URI.parse('https://unpkg.com/@popperjs/core')
   fetch = lambda do
     response = Net::HTTP.start(uri.host, uri.port, use_ssl: true) do |http|
       http.request(Net::HTTP::Get.new(uri.path, 'User-Agent' => 'Ruby'))
