@@ -1,5 +1,5 @@
 # frozen_string_literal: true
 
 module PopperJs
-  VERSION = '2.8.6'
+  VERSION = '2.9.2'
 end
