@@ -9,7 +9,7 @@ Works with Rails out of the box.
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'popper_js', '~> 2.11.5'
+gem 'popper_js', '~> 2.11.7'
 ```
 
 And then execute:
